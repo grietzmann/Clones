@@ -7,10 +7,10 @@
 }
 
 body {
-  background-color: #fe59d7;
+  background-color: #483c5c;
   background: -webkit-linear-gradient(
-      rgba(29, 38, 113, 0.8),
-      rgba(195, 55, 100, 0.8)
+      rgba(39, 43, 80, 0.8),
+      rgba(110, 93, 98, 0.8)
     ),
     url("images/background-image.jpg");
   background-repeat: no-repeat;
@@ -30,21 +30,21 @@ main {
 .user-img {
   border-radius: 50px;
   max-width: 100px;
-  box-shadow: 0 0 10px 3px #22e4f0;
+  box-shadow: 0 0 10px 3px #000000;
 }
 
 main h1 {
-  color: #12cad6;
+  color: #fafafa;
   font-size: 1.2rem;
-  text-shadow: 2px 2px 5px #22e4f0;
+  text-shadow: 2px 2px 5px #000000;
   margin: 0.5em 0 1.5em 0;
 }
 
 .link {
   height: 50px;
   width: 100%;
-  background-color: #12cad6;
-  box-shadow: 0 0 10px 3px #fe59d7;
+  background-color: #9e12d6;
+  box-shadow: 0 0 10px 3px #000000;
   margin-top: 1.3rem;
   transform: skewX(-45deg);
   display: flex;
@@ -58,7 +58,7 @@ main h1 {
 }
 
 a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
